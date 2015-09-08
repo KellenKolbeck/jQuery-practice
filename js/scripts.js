@@ -5,6 +5,6 @@ $(document).ready(function() {
   });
 
   $('p').click(function() {
-    alert("This is a paragraph.");
+    $("img").show();
   });
 });
